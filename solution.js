@@ -1,4 +1,4 @@
-document.querySelector('#search-back-btn').addEventListener('click', (e) => fillSearchForm(e));
+
 
 function fillSearchForm(e) {
     e.preventDefault();
@@ -34,5 +34,6 @@ function findRoom(e) {
     reservation.roomType = roomInfo;
     console.log(reservation);
     changeContent('guest-details-form-content');
+
 
 }
